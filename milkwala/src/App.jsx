@@ -5,10 +5,11 @@ import SignupFormu from './signupform'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
    <>
+   
    <SignupFormu/>
    </>
   )

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { supabase } from "../supabaseClient"; // Adjust the path as needed
+import { supabase } from "./supabaseClient"; // Adjust the path as needed
 
 const SignupForm = () => {
   const [formData, setFormData] = useState({
